@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# Model weights — all ignored except model.h5 (tracked for Hugging Face deployment)
+*.h5
+*.hdf5
+*.keras
+!model.h5
+
+# Uploads (temporary video files)
+uploads/
+
+# Generated / temporary frame directories
+test_frames/
+test2/
+
+# Training dataset (too large for Git — share separately)
+crowd_behavior_data/
+
+# Unused assets
+logo.png
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# TensorFlow logs
+logs/
+events.out.tfevents.*
