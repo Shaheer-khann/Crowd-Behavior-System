@@ -260,6 +260,3 @@ FLASK_ENV=production python app.py
 
 ---
 
-## 📄 License
-
-This project was developed as part of an **ANN (Artificial Neural Networks)** coursework project.
